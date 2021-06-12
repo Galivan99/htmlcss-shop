@@ -1,0 +1,164 @@
+body{
+    max-width: 1930px;
+    top: 20px;
+    margin: auto;
+    padding: 0;
+}
+
+/* img management */
+
+.img1{
+    position: relative;
+    display: inline-block;
+    background-image: url(img/1.webp);
+    height: 924px;
+    width: 640px;
+    background-position: center;
+    margin-bottom: 55px;
+}
+
+.img2{
+    display: inline-block;
+    position: relative;
+    background-image: url(img/2.webp);
+    height: 924px;
+    width: 640px;
+    background-position: center;
+    margin-bottom: 55px;
+}
+
+.img3{
+    position: relative;
+    display: inline-block;
+    background-image: url(img/3.jpg);
+    height: 924px;
+    width: 640px;
+    background-position: center;
+    margin-bottom: 55px;
+}
+
+.img4{
+    position: relative;
+    display: inline-block;
+    background-image: url(img/4.webp);
+    height: 924px;
+    width: 640px;
+    background-position: center;
+    margin-bottom: 55px;
+}
+
+.img5{
+    position: relative;
+    display: inline-block;
+    background-image: url(img/5.webp);
+    height: 924px;
+    width: 640px;
+    background-position: center;
+    margin-bottom: 55px;
+}
+
+.img6{
+    position: relative;
+    display: inline-block;
+    background-image: url(img/6.webp);
+    height: 924px;
+    width: 640px;
+    background-position: center;
+    margin-bottom: 55px;
+}
+
+/* / img management */
+
+/* img hover */
+
+.img1:hover{
+    background-image: url(img/1b.webp);
+}
+
+.img2:hover{
+    background-image: url(img/2b.webp);
+}
+
+.img4:hover{
+    background-image: url(img/4b.webp);
+}
+
+.img5:hover{
+    background-image: url(img/5b.webp);
+}
+
+.img6:hover{
+    background-image: url(img/6b.webp);
+}
+
+/* / img hover */
+
+/* div decoring */
+
+.heart{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 1.25;
+    font-size: 30px;
+    right: 0;
+    top: 20px;
+
+}
+
+.sales{
+    position: absolute;
+    background-color: red;
+    height: 30px;
+    width: 40px;
+    bottom: 20px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 1.75;
+    color: white;
+
+}
+
+
+.sustainability{
+    position: absolute;
+    background-color: green;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 1.75;
+    height: 30px;
+    width: 85px;
+    bottom: 20px;
+    left: 50px;
+}
+
+/* / div decoring */
+
+/* description */
+
+.nosales{
+    left: 0px;
+}
+
+.desc-price{
+    position: absolute;
+    height: 50px;
+    width: 640px;
+    padding: 0;
+    margin: 0;
+    bottom: -50px;
+}
+
+h3{
+    margin: 0px;
+}
+
+.redprice{
+    color: red;
+}
+
+/* / description */
